@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void playVideoView() {
+//        mVideoView.setVideoURI(Uri.parse("http://192.168.0.169/video.mp4"));
         mVideoView.setVideoURI(Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video));
         //播放
         mVideoView.start();
